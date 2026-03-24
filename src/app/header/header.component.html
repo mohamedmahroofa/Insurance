@@ -1,0 +1,124 @@
+<!-- topbar starts -->
+<div class="topbar-bg container-fluid d-none d-lg-block d-md-block">
+  <div class="row">
+    <!--row starts-->
+    <div class="col-lg-6 text-center text-start ps-0 ms-0 mb-lg-0 mb-2">
+      <!--contact item starts-->
+      <div
+        class="d-inline-flex align-items-center m-1 ms-1 ps-1 me-1 pe-1"
+        style="height: 45px"
+      >
+        <!--contact item text starts-->
+        <small class="me-2"
+          ><i class="fa fa-envelope me-4 pe-3"></i>info&#64;example.com</small
+        >
+        <span class="divider me-4"></span>
+        <small class="me-2"
+          ><i class="fa fa-phone me-3 pe-2"></i>+00-123456789</small
+        >
+      </div>
+      <!--contact item text ends-->
+    </div>
+    <!--contact item ends-->
+
+    <div class="col-lg-6 text-center text-end">
+      <div
+        class="d-inline-flex align-items-center m-1 ms-3 ps-3 me-4 pe-4"
+        style="height: 45px"
+      >
+        <!--contact item text starts-->
+        <a class="me-0"><i class="me-2 pe-2 fa-brands fa-facebook-f"></i></a
+        ><span class="me-1 divider"></span>
+        <a class="me-0"><i class="me-2 ms-3 pe-2 fa-brands fa-twitter"></i></a
+        ><span class="me-1 divider"></span>
+        <a class="me-0"><i class="me-2 ms-3 pe-2 fa-brands fa-linkedin"></i></a
+        ><span class="me-1 divider"></span>
+        <a class="me-0"
+          ><i class="me-2 ms-3 pe-2 fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <!--media icons text ends-->
+    </div>
+  </div>
+  <!--row starts-->
+</div>
+<!-- topbar ends -->
+
+<!-- navbar starts -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center align-items-center">
+  <div class="container me-2 d-inline-flex justify-content-center align-items-center">
+    <a class="navbar-brand" href="#">
+      <img
+        ngSrc="assets/img/header_logo.png"
+        width="120"
+        height="60"
+        alt="Company Logo"
+        priority
+        class="logo"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Life Insurance</a></li>
+            <li><a class="dropdown-item" href="#">Car Insurance</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Health Insurance</a></li>
+            <li><a class="dropdown-item" href="#">Travel Insurance</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Claims</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Refunds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <!-- <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        /> -->
+        <button class="btn btn-outline-success" type="submit">
+          Get a Quote
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- navbar ends -->
+
+<app-hero-carousel></app-hero-carousel>
+<app-info></app-info>

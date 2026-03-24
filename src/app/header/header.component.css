@@ -1,0 +1,96 @@
+/* topbar starts */
+.topbar-bg {
+  background-color: #003478;
+  color: #fff;
+  position: relative;
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.topbar-bg a i {
+  color: white;
+}
+/* topbar ends */
+
+/* navbar starts */
+.navbar {
+  height: 15vh;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  list-style: none;
+  align-items: center;
+}
+
+.navbar img.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar li a {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: #003478;
+  padding: 10px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:focus {
+  color: #464646;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline 1px;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  z-index: 99;
+  background-color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  left: 15px;
+  top: 90%;
+  /* visibility: hidden; */
+  transition: 0.5s;
+}
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar button {
+  background-color: #003478;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* navbar ends */
