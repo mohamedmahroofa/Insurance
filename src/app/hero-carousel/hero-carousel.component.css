@@ -48,7 +48,7 @@
   position: absolute;
   z-index: 10;
   background: linear-gradient(
-    120deg,
+    90deg,
     rgb(0, 52, 120) 0%,
     rgba(0, 52, 120, 0.1) 70%,
     rgba(0, 52, 120, 0.1) 100%
@@ -70,15 +70,15 @@
 }
 
 .carousel-caption p {
-  font-size: 36px;
+  font-size: 52px;
   font-weight: 900;
-  line-height: 30px;
+  line-height: 40px;
   word-spacing: 3px;
 }
 
 .carousel-caption button {
   width: auto;
-  height: 40px;
+  height: auto;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
@@ -93,6 +93,10 @@
   background-color: #fff;
   border: 1px solid white;
   border-radius: 5px;
+  padding: 0 30px;
+  line-height: 50px;
+  margin-right: 15px;
+  margin-top: 40px;
 }
 
 .carousel-caption .getagent {
@@ -100,4 +104,8 @@
   background-color: transparent;
   border: 1px solid white;
   border-radius: 5px;
+  padding: 0 30px;
+  line-height: 50px;
+  margin-right: 15px;
+  margin-top: 40px;
 }
