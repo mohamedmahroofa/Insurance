@@ -1,4 +1,4 @@
-.para1{
+.para1 {
   color: #003478;
   font-size: 32px;
   font-weight: 900;
@@ -13,5 +13,33 @@
   display: inline-block;
 }
 
+.card {
+  border: 1px solid #edeff2;
+}
 
+.card-header {
+  border-bottom: none;
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 30px;
+  color: #003478;
+}
 
+.card-body p.card-text {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 400;
+  word-spacing: 4px;
+  line-height: 22px;
+  word-wrap: none;
+  white-space: none;
+  margin: 0 0 15px 0;
+}
+
+.card-body i{
+ color: #003478; 
+}
