@@ -45,6 +45,21 @@
 }
 
 
+/* Learn more section */
+#learn-more {
+  background-color: #003478;
+  border-radius: 5px;
+  
+}
+
+#learn-more p {
+  color: #fff;
+}
+
+#learn-more span {
+  font-weight: 100;
+}
+
 /* Form */
 
 #home-tab-pane p {
