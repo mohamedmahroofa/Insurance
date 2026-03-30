@@ -49,15 +49,31 @@
 #learn-more {
   background-color: #003478;
   border-radius: 5px;
-  
+  padding: 30px;
 }
 
 #learn-more p {
   color: #fff;
+  line-height: 26px;
 }
 
 #learn-more span {
   font-weight: 100;
+}
+
+#learn-more button{
+  border: 1px solid white;
+  background-color: #003478;
+  color: white;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+#learn-more button:hover {
+  border: 1px solid #024dae;
+  background-color: #024dae;
 }
 
 /* Form */
