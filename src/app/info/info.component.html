@@ -157,294 +157,289 @@
 </section>
 
 <!-- Learn More section starts -->
- <section>
-  <div class="container d-flex justify-content-center align-items-center my-4">
+<section>
+  <div
+    class="container d-flex justify-content-center align-items-center my-4 w-75"
+  >
     <div class="row" id="learn-more">
-      <div class="col-9">
-        <p>Not sure what you need? <span>Learn in seconds which types of insurance match your business.</span></p>
+      <div class="col-9 my-2 text-end">
+        <p>
+          Not sure what you need?
+          <span
+            >Learn in seconds which types of insurance match your
+            business.</span
+          >
+        </p>
       </div>
-      <div class="col-3">
+      <div class="col-3 text-start">
         <button>Learn More</button>
       </div>
     </div>
   </div>
- </section>
+</section>
 <!-- Learn More section ends -->
 
-
-<!-- Contact Form -->
-<section class="cnt-section">
-  <div class="container">
-    <div class="row">
+<!-- Contact Form section starts -->
+<section id="contactform">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+      <!-- contact details starts -->
       <div class="col-6">
-        <div id="form-details" style="width: 415px; height: 414px">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button
+        <div class="zipcode">
+          <!-- Nav tabs starts -->
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a
                 class="nav-link active"
-                id="home-tab"
                 data-bs-toggle="tab"
-                data-bs-target="#home-tab-pane"
-                type="button"
-                role="tab"
-                aria-controls="home-tab-pane"
-                aria-selected="true"
+                href="#carinsurance"
+                >Car</a
               >
-                Car
-              </button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="profile-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#profile-tab-pane"
-                type="button"
-                role="tab"
-                aria-controls="profile-tab-pane"
-                aria-selected="false"
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#homeinsurance"
+                >Home</a
               >
-                Home
-              </button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="contact-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#contact-tab-pane"
-                type="button"
-                role="tab"
-                aria-controls="contact-tab-pane"
-                aria-selected="false"
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#lifeinsurance"
+                >Life</a
               >
-                Life
-              </button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="disabled-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#disabled-tab-pane"
-                type="button"
-                role="tab"
-                aria-controls="disabled-tab-pane"
-                aria-selected="false"
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#healthinsurance"
+                >Health</a
               >
-                Health
-              </button>
             </li>
           </ul>
-          <!-- Tab Content for Car Starts -->
-          <div class="tab-content" id="myTabContent">
-            <div
-              class="tab-pane fade show active"
-              id="home-tab-pane"
-              role="tabpanel"
-              aria-labelledby="home-tab"
-              tabindex="0"
-            >
-              <p>Start with your zip code to compare car insurance</p>
-              <div class="div-contact-form">
-                <form id="contact-form">
-                  <div class="mb-3">
+          <!-- Nav Tab ends -->
+
+          <!-- Tab panes  starts-->
+          <div class="tab-content">
+            <!-- car insurance details starts -->
+            <div class="tab-pane container active" id="carinsurance">
+              <p class="form-title">
+                Start with you zip code to compare car insurance
+              </p>
+              <div class="carform">
+                <form>
+                  <div class="mb-3 mt-3">
                     <input
                       type="text"
                       class="form-control"
-                      id="cnt-name"
-                      aria-describedby="name"
-                      placeholder="YOUR NAME"
+                      id="txtname"
+                      placeholder="Your Name"
+                      name="txtname"
                     />
                   </div>
                   <div class="mb-3">
                     <input
                       type="email"
                       class="form-control"
-                      id="cnt-email"
-                      aria-describedby="email"
-                      placeholder="EMAIL"
+                      id="txtemail"
+                      placeholder="Mail"
+                      name="txtemail"
                     />
                   </div>
-                  <div>
-                    <select class="form-select" aria-label="Type Of Insurance">
-                      <option selected>PROPERTY TYPE</option>
-                      <option value="1">HOME PROPERTY</option>
-                      <option value="2">HEALTH INSURANCE</option>
-                      <option value="3">CAR INSURANCE</option>
-                      <option value="4">LIFE INSURANCE</option>
-                      <option value="5">HOME INSURANCE</option>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Property Type</option>
+                      <option value="carinsurance">Car Insurance</option>
+                      <option value="homeinsurance">Home Insurance</option>
+                      <option value="lifeinsurance">Life Insurance</option>
+                      <option value="healthinsurance">Health Insurance</option>
                     </select>
                   </div>
-                  <div>
-                    <button type="submit" class="btn btn-primary w-100">
-                      Start Saving Today
-                    </button>
-                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Start Saving Today
+                  </button>
                 </form>
-                <div class="row">
-                  <div class="col-6 my-4">
-                    <small class="ratings">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </small>
-                    <p class="mt-sm-1">1000+ Reviews</p>
+                <div class="row ratings">
+                  <div class="col-5">
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
                   </div>
-                  <div class="col-6 my-4">
-                    <p>
-                      Already member?
-                      <span><a style="text-decoration: none">SIGN IN</a></span>
-                    </p>
+                  <div class="col-7">
+                    <a>Already a Member? Sign In</a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Tab Content for Car ends -->
-           <!-- Tab Contenr for Home starts -->
-            <div class="tab-content" id="myTabContent">
-            <div
-              class="tab-pane fade show active"
-              id="home-tab-pane"
-              role="tabpanel"
-              aria-labelledby="home-tab"
-              tabindex="0"
-            >
-              <p>Start with your zip code to compare home insurance</p>
-              <div class="div-contact-form">
-                <form id="contact-form">
-                  <div class="mb-3">
+            <!-- car insurance details ends -->
+            <!-- home insurance details starts -->
+            <div class="tab-pane container fade" id="homeinsurance">
+              <p class="form-title">
+                Start with you zip code to compare home insurance
+              </p>
+              <div class="homeform">
+                <form>
+                  <div class="mb-3 mt-3">
                     <input
                       type="text"
                       class="form-control"
-                      id="cnt-name"
-                      aria-describedby="name"
-                      placeholder="YOUR NAME"
+                      id="txtname"
+                      placeholder="Your Name"
+                      name="txtname"
                     />
                   </div>
                   <div class="mb-3">
                     <input
                       type="email"
                       class="form-control"
-                      id="cnt-email"
-                      aria-describedby="email"
-                      placeholder="EMAIL"
+                      id="txtemail"
+                      placeholder="Mail"
+                      name="txtemail"
                     />
                   </div>
-                  <div>
-                    <select class="form-select" aria-label="Type Of Insurance">
-                      <option selected>PROPERTY TYPE</option>
-                      <option value="1">HOME PROPERTY</option>
-                      <option value="2">HEALTH INSURANCE</option>
-                      <option value="3">CAR INSURANCE</option>
-                      <option value="4">LIFE INSURANCE</option>
-                      <option value="5">HOME INSURANCE</option>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Property Type</option>
+                      <option value="carinsurance">Car Insurance</option>
+                      <option value="homeinsurance">Home Insurance</option>
+                      <option value="lifeinsurance">Life Insurance</option>
+                      <option value="healthinsurance">Health Insurance</option>
                     </select>
                   </div>
-                  <div>
-                    <button type="submit" class="btn btn-primary w-100">
-                      Start Saving Today
-                    </button>
-                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Start Saving Today
+                  </button>
                 </form>
-                <div class="row">
-                  <div class="col-6 my-4">
-                    <small class="ratings">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </small>
-                    <p class="mt-sm-1">1000+ Reviews</p>
+                <div class="row ratings">
+                  <div class="col-5">
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
                   </div>
-                  <div class="col-6 my-4">
-                    <p>
-                      Already member?
-                      <span><a style="text-decoration: none">SIGN IN</a></span>
-                    </p>
+                  <div class="col-7">
+                    <a>Already a Member? Sign In</a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-           <!-- Tab Content for Home ends -->
-            <!-- Tab Content for Life starts -->
-             <div class="tab-content" id="myTabContent">
-            <div
-              class="tab-pane fade show active"
-              id="home-tab-pane"
-              role="tabpanel"
-              aria-labelledby="home-tab"
-              tabindex="0"
-            >
-              <p>Start with your zip code to compare life insurance</p>
-              <div class="div-contact-form">
-                <form id="contact-form">
-                  <div class="mb-3">
+            <!-- home insurance details ends -->
+            <!-- life insurance starts -->
+            <div class="tab-pane container fade" id="lifeinsurance">
+              <p class="form-title">
+                Start with you zip code to compare life insurance
+              </p>
+              <div class="lifeform">
+                <form>
+                  <div class="mb-3 mt-3">
                     <input
                       type="text"
                       class="form-control"
-                      id="cnt-name"
-                      aria-describedby="name"
-                      placeholder="YOUR NAME"
+                      id="txtname"
+                      placeholder="Your Name"
+                      name="txtname"
                     />
                   </div>
                   <div class="mb-3">
                     <input
                       type="email"
                       class="form-control"
-                      id="cnt-email"
-                      aria-describedby="email"
-                      placeholder="EMAIL"
+                      id="txtemail"
+                      placeholder="Mail"
+                      name="txtemail"
                     />
                   </div>
-                  <div>
-                    <select class="form-select" aria-label="Type Of Insurance">
-                      <option selected>PROPERTY TYPE</option>
-                      <option value="1">HOME PROPERTY</option>
-                      <option value="2">HEALTH INSURANCE</option>
-                      <option value="3">CAR INSURANCE</option>
-                      <option value="4">LIFE INSURANCE</option>
-                      <option value="5">HOME INSURANCE</option>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Property Type</option>
+                      <option value="carinsurance">Car Insurance</option>
+                      <option value="homeinsurance">Home Insurance</option>
+                      <option value="lifeinsurance">Life Insurance</option>
+                      <option value="healthinsurance">Health Insurance</option>
                     </select>
                   </div>
-                  <div>
-                    <button type="submit" class="btn btn-primary w-100">
-                      Start Saving Today
-                    </button>
-                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Start Saving Today
+                  </button>
                 </form>
-                <div class="row">
-                  <div class="col-6 my-4">
-                    <small class="ratings">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </small>
-                    <p class="mt-sm-1">1000+ Reviews</p>
+                <div class="row ratings">
+                  <div class="col-5">
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
                   </div>
-                  <div class="col-6 my-4">
-                    <p>
-                      Already member?
-                      <span><a style="text-decoration: none">SIGN IN</a></span>
-                    </p>
+                  <div class="col-7">
+                    <a>Already a Member? Sign In</a>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- life insurance ends -->
+            <!-- health insurance starts -->
+            <div class="tab-pane container fade" id="healthinsurance">
+              <p class="form-title">
+                Start with you zip code to compare health insurance
+              </p>
+              <div class="carform">
+                <form>
+                  <div class="mb-3 mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="txtname"
+                      placeholder="Your Name"
+                      name="txtname"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="txtemail"
+                      placeholder="Mail"
+                      name="txtemail"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Property Type</option>
+                      <option value="carinsurance">Car Insurance</option>
+                      <option value="homeinsurance">Home Insurance</option>
+                      <option value="lifeinsurance">Life Insurance</option>
+                      <option value="healthinsurance">Health Insurance</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Start Saving Today
+                  </button>
+                </form>
+                <div class="row ratings">
+                  <div class="col-5">
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                    <small><i class="fa-solid fa-star fa-1x"></i></small>
+                  </div>
+                  <div class="col-7">
+                    <a>Already a Member? Sign In</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- health insurance ends -->
           </div>
-            <!-- Tab Content for Life ends -->
+          <!-- Tab panes ends -->
         </div>
       </div>
-      <!-- Carousel Starts -->
-      <!-- <div class="col-6"></div> -->
-      <!-- Carousel ends -->
+      <!-- contact details ends -->
+      <!-- contact details starts -->
+      <!-- <div class="col-6">
+        <div></div>
+      </div> -->
+      <!-- carousel details ends -->
     </div>
+    <!--row ends-->
   </div>
 </section>
+<!-- Contact Form Ends -->

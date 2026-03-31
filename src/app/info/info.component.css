@@ -40,35 +40,37 @@
   margin: 0 0 15px 0;
 }
 
-.card-body i{
- color: #003478; 
+.card-body i {
+  color: #003478;
 }
-
 
 /* Learn more section */
 #learn-more {
   background-color: #003478;
   border-radius: 5px;
-  padding: 30px;
+  padding: 30px 30px;
+  width: 100%;
 }
 
 #learn-more p {
   color: #fff;
   line-height: 26px;
+  word-spacing: 2px;
 }
 
 #learn-more span {
   font-weight: 100;
 }
 
-#learn-more button{
+#learn-more button {
   border: 1px solid white;
   background-color: #003478;
   color: white;
-  padding: 15px 30px;
-  font-size: 14px;
+  padding: 15px 25px;
+  font-size: 12px;
   border-radius: 5px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #learn-more button:hover {
@@ -76,51 +78,25 @@
   background-color: #024dae;
 }
 
-/* Form */
+/* Contact Form begins */
 
-#home-tab-pane p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  /* margin-left: 25px;
-  margin-right: 25px; */
-  font-size: 14px;
-  font-weight: 300;
+#contactform {
+  background-color: #e5eaf1;
+  background-image: url("/assets/img/quote_bg_texture.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px 0px 80px 0px;
+  overflow: visible;
 }
 
-
-#contact-form input, select{
-  width: 100%;
-  height: 43px;
-  padding-left: 50px;
-  margin-bottom: 20px;
+.zipcode{
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  width: 450px;
+  height: 400px;
 }
-
-#contact-form input::placeholder{
-  font-size: 13px;
-}
-
-#contact-form select{
-  font-size: 13px;
-}
-
-#contact-form .btn {
-  background-color: #003478;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  padding: 0 30px;
-  font-size: 14px;
-  border: none;
-  vertical-align: middle;
-  height: 40px;
-  border-radius: none;
-}
-
-#contact-form .btn:hover {
-  background-color: rgba(0, 52, 120, 0.904);
-}
-
-.ratings i{
-  color:gold;
-}
-
+/* Contact Form ends */
