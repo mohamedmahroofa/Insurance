@@ -161,4 +161,43 @@
   font-size: 12px;
 }
 
+
+.ratings .lightext{
+  color: #7f99bb;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.ratings .boldtext{
+  text-transform: uppercase;
+  color: #003478;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#contactcarousel{
+  right: 60px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 15;
+}
+
+.carousel-item{
+  position: relative;
+  height: 50vh;
+  /* max-width: 50%; */
+}
+
+.carousel-item img{
+  display: block;
+  width: 85px;
+  height: 85px;
+}
+
+.carousel-item .rounded-corner{
+  width: 50%;
+  height: auto;
+}
 /* Contact Form ends */
