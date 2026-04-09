@@ -209,10 +209,16 @@
 
 #contactcarousel {
   right: 60px;
-  width: 300px;
-  height: 300px;
+  left: 60px;
+  width: 100%;
+  height: 500px;
   /* position:absolute;
   z-index:15; */
+}
+
+.carousel-inner{
+  height: 100%;
+  width: 100%;
 }
 
 .carousel-item {
@@ -225,6 +231,11 @@
 .carousel-item img {
   display: block;
   width: 25%;
+  left: 60px;
+  right: 60px;
+  padding: 5px;
+  margin-left:120px;
+  margin-right:120px;
 }
 
 .carousel-item .rounded-corner {
@@ -233,13 +244,35 @@
 }
 
 #contactcarousel .carousel-caption {
-  margin-top: 600px;
-  margin-left: -40px;
+  /* margin-top: 600px;
+  margin-left: -40px; */
   /* margin-right: 40px; */
-  width: 100%;
-}
-
-#contactform .carousel-caption p {
+  /* width: 100%; */
+  top:200px;
+  height: fit-content;
+  width: 30vw;
   text-align: center;
 }
+
+#contactform .carousel-caption p.profile1, p.profile2, p.profile3 {
+  text-align: center;
+  line-height: 20px;
+}
 /* Contact Form ends */
+
+p.profile1{
+  color: #003478;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p.profile2{
+  color: #7f99bb;
+  font-weight: 400;
+  font-weight: 12px;
+}
+
+p.profile3{
+  color: rgba(0,0,0,0.5);
+  font-weight: 500;
+}
