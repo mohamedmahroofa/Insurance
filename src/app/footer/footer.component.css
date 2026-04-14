@@ -52,7 +52,7 @@ height: fit-content;
   height: 200px;
 }
 
-.quicklinks a{
+.quicklinks ul li a{
   text-decoration: none;
   font-size: 15px;
   font-weight: 400;
@@ -62,7 +62,7 @@ height: fit-content;
   color: gray;
 }
 
-.linkcolumn1 ul{
+.quicklinks ul{
   list-style: none;
 }
 
@@ -77,4 +77,37 @@ height: fit-content;
 
 .quicklinks ul li {
   line-height: 25px;
+}
+
+.linkcolumn3 li{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: grey;
+}
+
+.linkcolumn3 li i {
+  margin-right: 10px;
+}
+
+.linkcolumn4 li{
+  line-height: 25px;
+}
+
+.linkcolumn4 .btn-primary{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #003478;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.linkcolumn4 li i {
+  margin-right: 10px;
+}
+
+.linkcolumn4 li{
+  margin-bottom: 20px;
 }
