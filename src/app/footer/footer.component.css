@@ -30,14 +30,16 @@
   height: fit-content;
 }
 
-#brandcarousel{
-  margin: 0 0 0 100px;
+.brandslogo{
+  margin: 0px 140px 0px 250px;
   width: 100%;
-height: fit-content;
+  height: fit-content;
   padding: 5px;
 }
 
-#brandcarousel .carousel-inner{
+
+
+/* #brandcarousel .carousel-inner{
   width: 100%;
   height: 100%;
 }
@@ -45,11 +47,20 @@ height: fit-content;
 #brandcarousel .carousel-item{
   height: 100px;
   width: 100px;
+} */
+
+.brandslogo .card{
+  border-radius: 0px;
+  border: none;
+  margin: 0px 30px 40px 30px;
+  padding: 15px;
 }
 
-#brandcarousel .carousel-item img{
-  width: 200px;
-  height: 200px;
+.brandslogo .card-body img{
+  margin-right: 20px;
+  padding: 15px;
+  height: auto;
+  width: auto;
 }
 
 .quicklinks ul li a{
