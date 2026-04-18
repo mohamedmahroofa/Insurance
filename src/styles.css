@@ -1,4 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
+.modal-login {
+  width: 350px;
+  color: #656565;
+}
+
+.modal-login .modal-content {
+  padding: 15px;
+  border-radius: 0px;
+  border: none;
+}
+
+.modal-login .modal-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+  position: relative;
+}
+
+.modal-login h5 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.modal-login .form-group {
+  position: relative;
+}
+
+.modal-login i {
+  font-size: 18px;
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.modal-login .form-control {
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.modal-login .btn-close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.modal-login .btn {
+  border: none;
+  border-radius: 0px;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 25%;
+  padding: 10px;
+  /* margin: 5px 100px 5px 100px; */
+  margin-right: 40%;
+  margin-left: 35%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.modal-footer a {
+  text-decoration: none;
+  color: #999;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* .modal-body{
+  
+} */
