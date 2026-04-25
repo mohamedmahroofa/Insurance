@@ -47,7 +47,7 @@
 <!-- navbar starts -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center align-items-center">
   <div class="container me-2 d-inline-flex justify-content-center align-items-center">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" routerLink="/">
       <img
         ngSrc="assets/img/header_logo.png"
         width="120"
@@ -71,10 +71,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -87,21 +87,21 @@
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Life Insurance</a></li>
-            <li><a class="dropdown-item" href="#">Car Insurance</a></li>
+            <li><a class="dropdown-item" routerLink="lifeins" routerLinkActive="active">Life Insurance</a></li>
+            <li><a class="dropdown-item" routerLink="carins" routerLinkActive="active">Car Insurance</a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Health Insurance</a></li>
-            <li><a class="dropdown-item" href="#">Travel Insurance</a></li>
+            <li><a class="dropdown-item" routerLink="healthins" routerLinkActive="active">Health Insurance</a></li>
+            <li><a class="dropdown-item" routerLink="travelins" routerLinkActive="active">Travel Insurance</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Claims</a>
+          <a class="nav-link" routerLink="claimsins" routerLinkActive="active">Claims</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Refunds</a>
+          <a class="nav-link" routerLink="refundsins" routerLinkActive="active">Refunds</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" routerLink="contactins" routerLinkActive="active">Contact</a>
         </li>
       </ul>
       <form class="d-flex">
